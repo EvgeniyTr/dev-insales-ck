@@ -1,0 +1,181 @@
+div.logoCp {
+	top: 0;
+    left: 0;
+    position: absolute;
+    float: left;
+    background: url(https://cloudkassir.ru/content/images/logo.svg) no-repeat 30px 30px /110px , linear-gradient(to top , #3686bb ,#629ec5);
+    min-width: 175px;
+    min-height: 145px;
+    text-indent: -9999px;
+	border-radius: 0px 0px 5px 5px;
+    z-index: 3;
+}
+
+div.button-save {
+    display: none;
+}
+
+div.button-change {
+    color: #007bff;   
+    width: 100%;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+div.title-form {
+    display: inline-flex;
+}
+
+p.title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 0px;
+}
+
+div.button-back-to-insales{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+label.err {
+    display: none;
+    color: red;
+}
+
+input.button-back-to-insales {
+    /*display: none;*/
+    box-shadow: none;
+    background-color: #f7f7f7;
+    border-color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.5);
+    border: 2px solid;
+}
+
+input.button-back-to-insales:hover {
+    box-shadow: none;
+    background-color: rgba(0,0,0,.5);
+    border-color: white;
+    color: white;
+}
+
+input.button-back-to-insales:active {
+    box-shadow: none;
+    background-color: rgba(0,0,0,.8);
+    border-color: white;
+    color: white;
+}
+
+div.settings-block {
+    /*border-bottom: 1px solid #e7e8ec;*/
+    padding-top: 1.25rem;
+}
+
+input.button-back-to-insales:focus {
+     box-shadow: none;
+}
+
+div.all-nds-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+input.all-nds-checkbox {
+    width: auto;
+}
+
+div#topBlueLine {
+	z-index: 20;
+    height: 4px;
+    width: 100%;
+    padding: 0 9999px;
+    margin: 0 -9999px;
+    background-color: #f5f8fa;
+}
+
+nav.navbar {
+	padding: .5rem 1rem;
+}
+
+main {
+    display:none;
+	padding-top: 7rem!important;
+}
+
+a.thumbnail{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+a.addWidget{
+    margin-bottom: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.nds-fields, .taxationSystem-fields {
+    display: flex;
+}
+
+.taxationSystem-fields {
+    padding-bottom: 16px;
+}
+
+.set-taxationSystem {
+    display: flex;
+    align-items: center;
+}
+
+div.button-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+div.setting-body {
+    padding: 0px;
+}
+
+div.settings-block {
+    border-bottom: 1px solid #e7e8ec;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+div.card-body {
+    padding-bottom: 0;
+}
+
+div.row.inn-taxation-system, div.row.user-vat{
+    display:none;
+}
+div#err.public-id-and-api-secret, div#err.user-vat, div#err.inn-taxation-system {
+    margin-bottom: 0px;
+}
+
+label.err-settings {
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+div.button-change.inn-taxation-system, div.button-save.inn-taxation-system {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+div.title-form {
+    display: inline-flex;
+}
+
